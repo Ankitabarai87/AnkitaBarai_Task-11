@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thala 7- Shoes Store- Task-11</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header start -->
+     <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>Thala <span>7.</span></h1>
+                </div>
+                <ul class="nav-link">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">More</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="user">
+                    <input type="text" name="search" placeholder="search...">
+                    <p><ion-icon class="icon" id="cart-icon" name="cart-outline"></ion-icon>0</p>
+                    <img src="./img/profile-img.jpg" alt="profil-img">
+                </div>
+            </nav>
+        </div>
+     </header>
+     <!-- Header ends -->
+
+     <main>
+        <!-- hero section start -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2>7!! Thala For <br> a <span>Reason!</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum minus iure Rerum minus iure Lorem ipsum dolor sit amet.</p>
+                        <button>Shop Now</button>
+                    </div>
+                    <div class="hero-img">
+                        <img src="./img/shoe-img-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="achievements-section">
+                    <div class="review achievement-box">
+                        <div class="img-box"><img src="./img/img-1.png" alt=""></div>
+                        <div class="achive-details"><h3>2K+</h3> <span>Reviews</span></div>
+                    </div>
+                    <div class="customer achievement-box">
+                        <div class="img-box"><img src="./img/img-2.png" alt=""></div>
+                        <div class="achive-details"><h3>30K+</h3> <span>Customers</span></div>
+                    </div>
+                    <div class="high-glty achievement-box">
+                        <div class="img-box"><img src="./img/img-3.png" alt=""></div>
+                        <div class="achive-details"><h3>High</h3> <span>Quality</span></div>
+                    </div>
+                    <div class="rating achievement-box">
+                        <div class="img-box"><img src="./img/img-4.png" alt=""></div>
+                        <div class="achive-details"><h3>4.5/5 </h3> <span>Rating</span></div>
+                    </div>
+            </div>
+        </section>
+        <!-- hero section ends -->
+
+        <!-- product display section start -->
+        <section id="product-display" class="product-display">
+            <div class="container">
+                <p class="p-1">Home > THALA FOR A REASON > Seven By M.S.Dhoni Women's Hogun Multi-Color Running Shoes</p>
+                <div class="main-product">
+                    <div class="left-img">
+                        <img src="./img/shoe-img-1.png" alt="shoes-img">
+                    </div>
+                    <div class="right-details">
+                        <h2>Seven By M.S.Dhoni <br>Women's Hogun Multi-Color <br>Running Shoes</h2>
+                        <p class="prod-del-para">For exeptional fit, feel and smooth transitions get going with these <br> duel mid sole technology shoes constructed with molded EVS sock <br> liner, gel at heel area, rubber outsole, fused upper and breathable...</p>
+                        <div class="price-box">
+                            <h1><span>$</span>1,334</h1>
+                            <div class="discount-box">
+                                <h3>Save 12%</h3>
+                                <p>Inclusive of all Taxes</p>
+                            </div>
+                        </div>
+                        <div class="add-to-cart">
+                            <form action="#">
+                                <input type="number">
+                            </form>
+                            <button><ion-icon class="cart-i" name="cart-outline"></ion-icon>ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="all-images">
+                <div class="img-box" id="img-box-1"><img src="./img/shoe-img-1.png" alt=""></div>
+                <div class="img-box" id="img-box-2"><img src="./img/shoe-img-2.png" alt=""></div>
+                <div class="img-box" id="img-box-3"><img src="./img/shoe-img-3.png" alt=""></div>
+                <div class="img-box" id="img-box-4"><img src="./img/shoe-img-4.png" alt=""></div>
+                <div class="img-box" id="img-box-5"><img src="./img/shoe-img-5.png" alt=""></div>
+            </div>
+        </section>
+        <!-- product display section end -->
+
+        <!-- Shopping Cart section start -->
+            <section id="shop-cart" class="shopping-cart">
+                <div class="container">
+                    <h1>Shopping Cart</h1>
+                    <div class="shopping-box">
+                        <div class="left-cart">
+                            <table class="cart-table">
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th>Quantity</th>
+                                        <th>Price</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Seven By M.S.Dhoni W...</td>
+                                        <td>
+                                        <div class="qty">
+                                            <span>-</span>
+                                            <span>1</span>
+                                            <span>+</span>
+                                        </div>
+                                        </td>
+                                        <td>₹4,999</td>
+                                        <td><span class="delete">×</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Seven By M.S.Dhoni W...</td>
+                                        <td>
+                                        <div class="qty">
+                                            <span>-</span>
+                                            <span>1</span>
+                                            <span>+</span>
+                                        </div>
+                                        </td>
+                                        <td>₹4,999</td>
+                                        <td><span class="delete">×</span></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Seven By M.S.Dhoni W...</td>
+                                        <td>
+                                        <div class="qty">
+                                            <span>-</span>
+                                            <span>1</span>
+                                            <span>+</span>
+                                        </div>
+                                        </td>
+                                        <td>₹4,999</td>
+                                        <td><span class="delete">×</span></td>
+                                    </tr>
+                                    </tbody>
+                            </table>
+                        </div>
+                        <div class="right-cart">
+                            <div class="coupon-box">
+                                <h4>Enter Coupon Code</h4>
+                                <div class="coupon-btn-box">
+                                    <input type="text" placeholder="COUPON CODE">
+                                    <button>Apply Now</button>
+                                </div>
+                                <div class="coupon-total-price">
+                                    <table>
+                                        <tbody class="total-table">
+                                            <tr>
+                                                <td>Sub Total</td>
+                                                <td>$4,700</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Taxes(if applicable)</td>
+                                                <td>$199</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Discount</td>
+                                                <td>$0</td>
+                                            </tr>
+                                            <tr class="total-price">
+                                                <td>Total</td>
+                                                <td>$4,999</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="btn-box">
+                                <button>Pay Now $4,999</button>
+                            </div>
+                            <div class="payment-img-box">
+                                <img src="./img/r-3.png" alt="">
+                                <img src="./img/r-2.png" alt="">
+                                <img src="./img/r-4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p><span>< </span> Continue Shopping</p>
+                </div>
+            </section>
+        <!-- Shopping Cart section ends -->
+            <hr>
+        <!-- Payment section start -->
+        <section id="payment-section" class="payment-section">
+            <div class="payment-left">
+                <h4>Checkout</h4>
+                <h3>Contact Details</h3>
+                <form action="#">
+                    <label for="email" name="email" id="email">Email ID</label>
+                    <input type="email" placeholder="John Doe">
+                </form>
+                <h3>Payment</h3>
+                <div class="payment-detail-box">
+                    <div class="payment-mode-opt">
+                        <div class="card-opt opt-box">
+                            <ion-icon name="card-outline" class="payment-icon"></ion-icon>
+                            <p>Card</p>
+                        </div>
+                        <div class="crypto-opt opt-box">
+                            <ion-icon name="logo-bitcoin" class="payment-icon"></ion-icon>
+                            <p>Crypto</p>
+                        </div>
+                        <div class="bank-opt opt-box">
+                            <i class="fa-solid fa-building-columns" class="payment-icon"></i>
+                            <p>Bank</p>
+                        </div>
+                        <div class="more-opt opt-box">
+                            <i class="fa-solid fa-ellipsis-vertical" class="payment-icon"></i>
+                        </div>
+                    </div>
+                    <div class="payment-form">
+                        <form action="#">
+                            <label for="number">Card Number</label>
+                            <input type="number" placeholder="John Doe">
+                            <div class="card-details">
+                                <div class="exp-country">
+                                    <label for="month">Expiry</label>
+                                    <input type="text" placeholder="MM/YY" pattern="\d{2}-\d{4}">
+                                    <label for="text">Country</label>
+                                    <input type="text" placeholder="India">
+                                </div>
+                                <div class="cvc-zip">
+                                    <label for="password">CVC</label>
+                                    <input type="password" placeholder="..." minlength="3" maxlength="3">
+                                    <label for="text">ZIP</label>
+                                    <input type="password" placeholder="xxxxx">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-right">
+                <h2>Order Summary</h2>
+                <div class="coupon-box">
+                    <h4>Enter Coupon Code</h4>
+                    <div class="coupon-btn-box">
+                        <input type="text" placeholder="COUPON CODE">
+                        <button>Apply Now</button>
+                    </div>
+                    <div class="coupon-total-price">
+                        <table>
+                            <tbody class="total-table">
+                                <tr>
+                                    <td>Sub Total</td>
+                                    <td>$4,700</td>
+                                </tr>
+                                <tr>
+                                    <td>Taxes(if applicable)</td>
+                                    <td>$199</td>
+                                </tr>
+                                <tr>
+                                    <td>Discount</td>
+                                    <td>$0</td>
+                                </tr>
+                                <tr class="total-price">
+                                    <td>Total</td>
+                                    <td>$4,999</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <button>Pay Now $4,999</button>
+                </div>
+                <div class="payment-img-box">
+                    <img src="./img/r-3.png" alt="">
+                    <img src="./img/r-2.png" alt="">
+                    <img src="./img/r-4.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Payment section ends -->
+
+     </main>
+    
+</body>
+</html>
+
+
